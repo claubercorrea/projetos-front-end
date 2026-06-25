@@ -1,0 +1,25 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"); */
+*{
+    margin: 0;
+    padding: 0;
+    font: normal;
+    box-sizing: border-box;
+}
+.body .main{
+    min-width:100vw ;
+    min-height: 100vh;
+    
+    background: yellow hsl(47, 88%, 63%);
+}
+
+.container_cartao{
+    width: 1200px;
+
+}
+
+
+@media (min-width:375px){
+.container_cartao{
+    min-width: 200px;
+}
+}
